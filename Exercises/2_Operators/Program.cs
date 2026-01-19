@@ -32,7 +32,9 @@ internal class Program
         b++;
         Console.WriteLine($"De waarde is {a}, {b}");
         // TODO 2d: decrease b by 1 and display the result.
-        Console.WriteLine(--b);
+
+        int res2d = b + 1;
+        Console.WriteLine(res2d);
         int c = Random.Shared.Next(1, 3);
         //int rem = c % 2;
         // TODO 3a: Declare a variable that stores whether c equals 2.

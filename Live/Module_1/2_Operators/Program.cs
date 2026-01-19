@@ -35,7 +35,7 @@ internal class Program
         a = a + 1;
         a += 1;
 
-        Console.WriteLine(++a);
+        Console.WriteLine(a++);
 
         bool Test()
         {
